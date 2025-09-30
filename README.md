@@ -68,6 +68,5 @@ This project shows how to transform raw sales data into **business insights** th
 ## 🗂️ Credits  
 👨‍💻 Author: Faisal Hossain Shaown  
 🛠️ Tools: SQL Server, Microsoft Excel  
-📜 License: MIT  
 
 ⭐ If you like this project, **star the repo** to support!
