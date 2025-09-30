@@ -1,4 +1,4 @@
-# -Pizza-Sales-Analytics-SQL-Excel-Dashboard
+# Pizza-Sales-Analytics-SQL-Excel-Dashboard
 
 ![Made with SQL](https://img.shields.io/badge/Made%20with-SQL-blue)  
 ![Excel Dashboard](https://img.shields.io/badge/Excel-Dashboard-green)  
