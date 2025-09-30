@@ -1,5 +1,8 @@
 # -Pizza-Sales-Analytics-SQL-Excel-Dashboard
 
+![Made with SQL](https://img.shields.io/badge/Made%20with-SQL-blue)  
+![Excel Dashboard](https://img.shields.io/badge/Excel-Dashboard-green)  
+
 A complete **end-to-end analytics project** exploring pizza sales using **SQL for data analysis** and **Excel for dashboard visualization**.  
 This project shows how to transform raw sales data into **business insights** through KPI tracking, trend analysis, and an interactive dashboard.  
 
