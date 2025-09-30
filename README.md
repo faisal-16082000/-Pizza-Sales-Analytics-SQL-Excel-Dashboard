@@ -1,75 +1,67 @@
-# Pizza-Sales-Analytics-SQL-Excel-Dashboard
+# 🍕 Pizza Sales Analytics — SQL & Excel Dashboard
 
-![Made with SQL](https://img.shields.io/badge/Made%20with-SQL-blue)  
-![Excel Dashboard](https://img.shields.io/badge/Excel-Dashboard-green)  
+![Pizza Sales Dashboard](Dashboard%20Screenshot.png)
 
-A complete **end-to-end analytics project** exploring pizza sales using **SQL for data analysis** and **Excel for dashboard visualization**.  
-This project shows how to transform raw sales data into **business insights** through KPI tracking, trend analysis, and an interactive dashboard.  
+A complete end-to-end analytics project using **SQL** for data querying & insights and **Excel** for the dashboard visualization. This repo includes data, SQL scripts, result documents, and the dashboard itself.
 
 ---
 
-## 📸 Dashboard Preview  
-![Pizza Sales Dashboard](Dashboard%20Screenshot.png)  
+## 📂 Repository Contents
 
-> Explore full dashboard: [`Pizza Sales Dashboard.xlsx`](Pizza%20Sales%20Dashboard.xlsx)  
-
----
-
-## 🔑 Key Business Metrics  
-- 💰 **Total Revenue**: $817,860  
-- 🛒 **Total Orders**: 21,350  
-- 🍕 **Total Pizzas Sold**: 49,574  
-- 📈 **Avg Order Value (AOV)**: $38.31  
-- 🍽️ **Avg Pizzas per Order**: 2.32  
+- `Dashboard Screenshot.png` — screenshot of the dashboard  
+- `Pizza Sales Dashboard.xlsx` — interactive Excel dashboard  
+- `SQLQuery.sql` — SQL script to compute KPIs & trends  
+- `Pizza Sales SQL Queries with Result.docx` — queries + result outputs  
+- `pizza_sales.csv` — the raw dataset  
+- `README.md` — this file  
 
 ---
 
-## 📈 Insights & Findings  
-- **Busiest Days/Times** → Friday & Saturday evenings (4–9 PM).  
-- **Top Categories** → Classic pizzas dominate sales.  
-- **Best Size Performer** → Large pizzas = ~46% of revenue.  
-- **Best Sellers** → Classic Deluxe, Barbecue Chicken, Hawaiian.  
-- **Worst Sellers** → Brie Carree, Mediterranean, Calabrese.  
+## 🔑 Key Metrics & Insights
 
-👉 **Recommendation**: Focus on **top-performing pizzas**, optimize staffing for weekends/evenings, and evaluate **low-selling items**.  
+- **Total Revenue**: $817,860  
+- **Total Orders**: 21,350  
+- **Total Pizzas Sold**: 49,574  
+- **Average Order Value (AOV)**: $38.31  
+- **Average Pizzas per Order**: 2.32  
 
----
-
-## 📂 Repository Contents  
-- `pizza_sales.csv` → Raw dataset  
-- `SQLQuery.sql` → SQL queries for KPIs & insights  
-- `Pizza Sales Dashboard.xlsx` → Interactive Excel dashboard  
-- `Dashboard Screenshot.png` → Dashboard preview image  
-- `Pizza Sales SQL Queries with Result.docx` → Queries + outputs  
-- `README.md` → Project documentation  
+Insights:
+- Busiest times: Friday & Saturday evenings  
+- Classic pizzas and Large size dominate sales  
+- Top-selling pizzas: Classic Deluxe, Barbecue Chicken, Hawaiian  
+- Low-selling pizzas: Brie Carree, Mediterranean, Calabrese  
 
 ---
 
-## 🧮 SQL Highlights  
-- KPIs → Revenue, Orders, AOV, Pizzas per Order  
-- Daily & Hourly Sales Trends → `DATENAME()`, `DATEPART()`  
-- % Sales by Category & Size  
-- Top & Bottom 5 pizzas → `ORDER BY` ranking  
-- Flexible date filters → `WHERE MONTH()` / `DATEPART(QUARTER)`  
+## 🔗 Direct Links to Files
+
+- [Download Excel Dashboard](Pizza%20Sales%20Dashboard.xlsx)  
+- [View SQL Script](SQLQuery.sql)  
+- [Queries & Results Document](Pizza%20Sales%20SQL%20Queries%20with%20Result.docx)  
+- [Raw Dataset (CSV)](pizza_sales.csv)  
 
 ---
 
-## ▶️ How to Reproduce  
-1. Load `pizza_sales.csv` into your SQL database as table `pizza_sales`.  
-2. Run queries from `SQLQuery.sql`.  
-3. Open `Pizza Sales Dashboard.xlsx` for visualization.  
+## ▶️ How to Reproduce
+
+1. Load `pizza_sales.csv` into your SQL database (table name `pizza_sales`).  
+2. Run SQL queries from `SQLQuery.sql`.  
+3. Open `Pizza Sales Dashboard.xlsx` to explore metrics, filters & charts.  
 
 ---
 
-## 🏆 Skills Demonstrated  
-- SQL: Data extraction, aggregation, trend analysis  
-- Excel: KPI dashboard design, slicers, charts  
-- Business Analytics: Translating raw data → insights  
+## 🧠 Skills Demonstrated
+
+- SQL (aggregation, trend analysis, ranking)  
+- Excel dashboarding (charts, slicers, layout)  
+- Data storytelling & business insight  
 
 ---
 
-## 🗂️ Credits  
-👨‍💻 Author: Faisal Hossain Shaown  
-🛠️ Tools: SQL Server, Microsoft Excel  
+## 🗂️ Credits & License
 
-⭐ If you like this project, **star the repo** to support!
+- Created by **Faisal Hossain Shaown**  
+
+---
+
+⭐ If you like this project, **please star the repo**!
